@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* Start ဆေးဝါးများ  */
+
 .products-category{
 display: flex;
 justify-content: center;
@@ -63,3 +66,5 @@ margin: 10px;
 .dt-icon div:hover p{
     color: rgb(142, 142, 255);
 }
+
+/* End ဆေးဝါးများ  */
