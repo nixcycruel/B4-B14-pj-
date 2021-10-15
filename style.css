@@ -68,3 +68,36 @@ margin: 10px;
 }
 
 /* End ဆေးဝါးများ  */
+
+/*Start Footer*/
+.footerlinks{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+.fa-phone-volume,
+.fa-mail-bulk,
+.fa-facebook-square{
+    font-size: 25px;
+}
+.footerlinks:hover{
+    color: black;
+}
+
+
+.footerlinks2{
+    text-decoration: none;
+    color: #999;
+}
+.footerlinks2:hover{
+    color: cornflowerblue;
+}
+
+.footerlinks3{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.footerlinks3:hover{
+    color: cornflowerblue;
+}
+/*End Footer*/
