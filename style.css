@@ -3,6 +3,297 @@
     padding: 0;
 }
 
+/*Start Header*/
+
+.hho{
+    font-family:sans-serif;
+}
+
+.top{
+    width:100%;
+    height:50px;
+    background-color:blue;
+    color:#fff;
+    font-size:15px;
+
+    text-align: center;
+    line-height:50px;
+
+    padding:0;
+    margin:0;
+}
+
+.root{
+    width:100%;
+    height:70px;
+    background-color:#fff;
+    padding:0;
+    margin:0;
+    box-shadow:0 3px 6px rgba(0,0,0,0.1);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#727272;
+
+    list-style:none;
+}
+
+.root ul li{
+    margin-right:30px;
+    cursor:pointer;
+}
+
+.root ul li:hover{
+    color:deepskyblue;
+}
+
+.root ul li img.logo{
+    width:85px;
+    height:85px;
+}
+
+.kbz{
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.root ul li.search{
+    width:200px;
+    height:80%;
+    background-color:#f0f0f0;
+    border-radius:30px;
+
+    margin-left:60px;
+    margin-right:60px;
+    cursor:text;
+}
+
+.root ul li.search:hover{
+    color:#727272;
+}
+
+.root ul li.search p span{
+    margin-left:25px;
+    margin-right:80px;
+}
+
+.root ul li.search p i{
+    color:deepskyblue;
+}
+
+li .fa-shopping-bag{
+    font-size:25px;
+    color:#2c3034;
+}
+
+ul li .fa-shopping-bag:hover, ul li .fa-user:hover{
+    color:deepskyblue;
+}
+
+li .fa-user{
+    font-size:25px;
+    color:#2c3034;
+}
+
+
+li .myanmar{
+    border-radius:45%;
+}
+
+li .fa-sort-down{
+    margin-left:8px;
+}
+
+.content{
+    text-align:center;
+}
+
+.content .boxes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#2c3034;
+    margin-top:30px;
+}
+
+.boxes .box1, .boxes .box2, .boxes .box3{
+    width:350px;
+    box-shadow:0 3px 5px rgba(0,0,0,0.2);
+    text-align:left;
+    margin:0 35px;
+}
+
+.box11, .box22, .box33{
+    padding:30px;
+}
+
+.boxes i{
+    font-size:40px;
+    color:#727272;
+}
+
+.boxes p{
+    color:#727272;
+    line-height: 1.8;
+}
+
+.boxes a{
+    text-decoration: none;
+    color:#2c3034;
+    font-weight: bold;
+    font-size:15px;
+
+    display:block;
+    margin-top:35px;
+}
+
+.boxes a i{
+    font-size:13px;
+}
+
+
+.box1:hover a,.box1:hover a i{
+    color:red;
+}
+
+.box2:hover a,.box2:hover a i{
+    color:red;
+}
+
+.box3:hover a,.box3:hover a i{
+    color:red;
+}
+
+.content .p1{
+    margin-top:20px;
+    letter-spacing: 2px;
+    color:red;
+    font-size:16px;
+    font-weight: 600;
+}
+
+.content .p2{
+    width:60%;
+    margin-top:30px;
+    margin-left:20%;
+    font-size:45px;
+    color:#2c3034;
+    font-weight: bold;
+}
+
+.browse{
+    margin-top:60px;
+}
+
+
+.browse ul{
+    list-style: none;
+
+    display:flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.browse ul li{
+    width:200px;
+    background-color: #f1f1f1;
+    margin-left:15px;
+    text-align: center;
+}
+
+.browse ul li p{
+    margin-bottom: 50px;
+}
+
+.browse ul li img{
+    width:150px;
+    height:150px;
+    margin-top:30px;
+
+    transition:0.5s linear;
+}
+
+.browse ul li:hover img{
+    transform:scale(1.1);
+}
+
+.browse ul li:hover p{
+    color:deepskyblue;
+}
+
+.browse h1{
+    margin-top:120px;
+    margin-bottom:80px;
+    text-align:center;
+    color:#323539;
+}
+
+.browse .products h4{
+    color:#727272;
+    font-size:12px;
+}
+
+.browse .products h3{
+    color:deepskyblue;
+}
+
+.browse .products span:hover{
+    cursor: pointer;
+    color:deepskyblue;
+}
+
+.browse .products h4:hover{
+    cursor: pointer;
+    color:deepskyblue;
+}
+
+.last{
+    margin-top:100px;
+    color:#323539;
+}
+
+.last h1{
+    margin-top:20px;
+    text-align: center;
+}
+
+
+.last ul{
+    list-style:none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top:80px;
+}
+
+.last ul li{
+    margin:0 20px;
+    padding:20px;
+
+    text-align:center;
+
+}
+
+.last ul li i {
+    color: deepskyblue;
+}
+
+.last ul li:hover{
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+/*End Header*/
+
+
 /* Start ဆေးဝါးများ  */
 
 .products-category{
@@ -68,6 +359,7 @@ margin: 10px;
 }
 
 /* End ဆေးဝါးများ  */
+
 
 /*Start Footer*/
 .footerlinks{
